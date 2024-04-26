@@ -18,6 +18,14 @@ namespace Projeto02Impacta.Controllers
             return View();
         }
 
+        public IActionResult Cliente()
+        {
+            return View();
+        }
+        public IActionResult Funcionario()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

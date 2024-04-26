@@ -24,7 +24,7 @@ CREATE TABLE tblFuncionarios (
     FuncionarioID INT PRIMARY KEY IDENTITY(1,1),
     Nome NVARCHAR(100),
     Cargo NVARCHAR(50),
-    Salario DECIMAL(10, 2)
+    Salario DECIMAL(10,2)
 );
 
 -- Inserindo alguns registros na tabela tblFuncionarios
